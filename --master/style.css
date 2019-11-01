@@ -191,11 +191,10 @@ margin-top:390px;
     background-size: cover;
 }
 .img{
-align-content: center;
-position: absolute;
-margin: -80px 890px;
+margin-top: -200px;
+margin-left: 800px;
 height: 240px;
-width: 280px;
+width: 270px;
 transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
 -webkit-transition: all 0.3s ease-in-out;
@@ -208,8 +207,42 @@ box-shadow: 0 2px 5px #aaa;
     border-radius: 3px;
 }
 .coook{
-    padding-left: 10px;
+    margin-left: -25px;
     width: 500px;
     font-family: 'Lato-Light';
     font-size: 30px;
+}
+.browseby{
+    margin-top: 100px;
+    margin-left: 830px;
+}
+.bluda{
+    background: url(/img/блюда.jpg);
+    height:450px;
+    margin-top: 50px;
+}
+.numbers{
+    background: url(/img/numbers.JPG);
+    height:56px;
+    width: 1177px;
+    margin-top: 60px;
+    margin-left: 350px;
+}
+hr {
+    margin-top: 60px;
+    border: none; /* Убираем границу */
+    background-color:#e2e2e2; /* Цвет линии */
+    color: #e2e2e2; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+.podval{
+    background-color: #f7f7f7;
+    height: 30px;
+    max-height: 90px;
+    display:inline-block;
+}
+.allright{
+    color: #c1c1c1;
+    margin-top:20px;
+    margin-left: 215px;
 }
