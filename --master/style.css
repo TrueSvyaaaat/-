@@ -153,8 +153,9 @@ color:black;
 }
 .logo{
 display:inline-block;
-margin: 0 15px;
-margin-top:390px;
+margin: 0 5px;
+margin-top:10px;
+margin-bottom: 220px;
 }
 
 .intro-title3{
@@ -169,16 +170,17 @@ margin-top:390px;
     padding-left: 50px;
     float: right;
 }
-.mobile{
-    float: left;
-}
 .text3{
     font-size: 20px;
     margin-top:auto;
 }
 .mobile{
+    background:url(/img/mobile_03.jpg) no-repeat;
+    padding-left: 600px;
     float: left;
     background-color:#f7f7f7;
+    width: 1890px;
+    
 }
 .all{
     background: url(./img/yt_02.jpg) center no-repeat;
@@ -217,12 +219,14 @@ box-shadow: 0 2px 5px #aaa;
     margin-left: 830px;
 }
 .bluda{
-    background: url(/img/блюда.jpg);
+    background: url(/img/блюда.jpg) center no-repeat;
+    background-size: cover;
     height:450px;
     margin-top: 50px;
+    
 }
 .numbers{
-    background: url(/img/numbers.JPG);
+    background: url(/img/numbers.JPG) no-repeat;
     height:56px;
     width: 1177px;
     margin-top: 60px;
@@ -236,9 +240,8 @@ hr {
     height: 2px; /* Толщина линии */
    }
 .podval{
-    background-color: #f7f7f7;
-    height: 30px;
-    max-height: 90px;
+    height: 50px;
+    width:1890px;
     display:inline-block;
 }
 .allright{
