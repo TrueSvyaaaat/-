@@ -1,0 +1,261 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color:red;
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    line-height: 1.6;
+    color: #333;
+} 
+*,
+*:before,
+*:after {
+    box-sizing:border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.intro {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background:url("img/intro.jpg") center no-repeat;
+    background-size: cover;
+}
+.intro_inner{
+    width:100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+.intro_title{
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    font-size: 100px;
+}
+.intro_suptitle{
+  font-size: 26px;
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+}
+.header {
+    text-align: right;
+    width: 100%;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_inner{
+    padding-top: 30px;
+    padding-right: 15px;
+    text-align: right;
+    width: 100%;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_logo{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 26px;
+    font-weight: 700;
+    color:#fff;
+}
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin:0 15px;
+    color:#fff;
+    text-decoration: none ;
+    transition: color 0.1s linear;
+    position: relative;
+}
+.nav_link:after{
+    content: "";
+    display: block;
+    width:100%;
+    height:3px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .1s linear;
+}
+.nav_link:hover{
+    color:#fce38a;
+
+}
+.nav_link:hover{
+    color: #fff;
+}
+.nav_link:hover:after{
+   display: block; 
+   color: #fce38a;
+   opacity: 1;
+}
+.button {
+    display:inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight: none;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+.button:hover {
+    background-color: #fff;
+    color: #333;
+}
+.section_header{
+    margin-bottom: 40px;
+    width: 100px;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+.food{
+display:inline-block;
+color:black;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.block-icon{
+    font-family: 'Lato', sans-serif;
+    padding-top: 25px;
+    width: 300px;
+    height: 300px;
+    border: 1px #ffffff;
+    border-radius: 15px;
+    text-align: center;
+}
+.container2{
+    margin: 0 auto;
+    width: 1500px;
+}
+.logo{
+display:inline-block;
+margin: 0 5px;
+margin-top:10px;
+margin-bottom: 220px;
+}
+
+.intro-title3{
+    font-size: 40px;
+    font-family: 'Arial Narrow Bold';
+    padding-top: 20px;
+    font-family: 'Morgi';
+    line-height: 140px;
+
+}
+.text2{
+    padding-left: 50px;
+    float: right;
+}
+.text3{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-top:auto;
+    color: #aaa;
+}
+.mobile{
+    background:url(/img/mobile_03.jpg) no-repeat;
+    padding-left: 600px;
+    float: left;
+    background-color:#f7f7f7;
+    width: 1890px;
+    
+}
+.all{
+    background: url(./img/yt_02.jpg) center no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 465px;
+
+    background-size: cover;
+}
+.img{
+margin-top: -200px;
+margin-left: 800px;
+height: 240px;
+width: 270px;
+transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+border:1px solid #ddd;    
+border-radius: 50%;
+box-shadow: 0 2px 5px #aaa;
+}
+.img:hover {
+    border-radius: 3px;
+}
+.coook{
+    font-family: 'Lato', sans-serif;
+    margin-left: -25px;
+    width: 500px;
+
+    font-size: 30px;
+}
+.browseby{
+    font-family: 'Lato', sans-serif;
+    margin-top: 100px;
+    margin-left: 830px;
+}
+.bluda{
+    background: url(/img/блюда.jpg) center no-repeat;
+    background-size: cover;
+    height:450px;
+    margin-top: 50px;
+    
+}
+.numbers{
+    background: url(/img/numbers.JPG) no-repeat;
+    height:56px;
+    width: 1177px;
+    margin-top: 60px;
+    margin-left: 350px;
+}
+hr {
+    margin-top: 60px;
+    border: none; /* Убираем границу */
+    background-color:#e2e2e2; /* Цвет линии */
+    color: #e2e2e2; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+.podval{
+    height: 50px;
+    width:1890px;
+    display:inline-block;
+}
+.allright{
+    color: #c1c1c1;
+    padding-top:20px;
+    padding-left: 215px;
+}
